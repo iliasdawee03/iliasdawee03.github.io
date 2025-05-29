@@ -1,0 +1,75 @@
+.contact-section {
+  min-height: 100vh;
+  padding: 6rem 0;
+  background: #111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-card {
+  background: rgba(24,24,24,0.97);
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px rgba(100,108,255,0.10);
+  padding: 3rem 2rem;
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  animation: fadeInUp 0.8s;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #646cff 0%, #3ddad7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contact-desc {
+  font-size: 1.25rem;
+  color: #ccc;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 2rem;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1.15rem;
+  justify-content: center;
+}
+
+.contact-label {
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact-link {
+  color: #646cff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s, text-decoration 0.2s;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: #3ddad7;
+}
